@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Todo.css">
+</head>
+<body class="bg-yellow-200 font-sans flex items-center justify-center min-h-screen">
+   <div class="container p-6 bg-yellow-50 shadow-lg rounded-lg md:w-2/3">
+    <h1 class="text-2xl font-bold mb-5 text-yellow-900">ToDo App</h1>
+    <div class="inputs flex mb-4">
+        <input type="text" placeholder="Enter Your Task" id="inp" class="flex-grow p-2 border border-yellow-300 rounded-l-md focus:outline-none focus:ring-2 focus:ring-yellow-500">
+        <button onclick="Add()" class="p-2 bg-yellow-500 text-white rounded-r-md hover:bg-yellow-600 focus:outline-none">Add</button>
+    </div>
+    <div class="text">
+        
+    </div>
+   </div>
+
+    <script src="Todo.js"></script>
+</body>
+</html>
